@@ -1,2 +1,10 @@
-overlay-xy(rectangle(10, 30, "solid", "white"), -40, -35,overlay-xy(rectangle(10, 30, "solid", "white"), -60, -35,overlay-xy(rectangle(10, 30, "solid", "white"), -80, -35,overlay(rectangle(60, 30, "solid", "lime"),overlay(rectangle(70, 40, "solid", "orange"),overlay(rectangle(80, 50, "solid", "crimson"), overlay(rectangle(90, 60, "solid", "yellow"), overlay(rectangle(100, 70, "solid", "pink"), overlay(rectangle(110, 80, "solid", "purple"), overlay(rectangle(120, 90, "solid", "dark-blue"),rectangle(130, 100, "solid", "green")))))))))))
-
+step-1 = overlay(rectangle(120, 90, "solid", "dark-blue"), bakgrunn)
+step-2 = overlay(rectangle(110, 80, "solid", "purple"), step-1)
+step-3 = overlay(rectangle(100, 70, "solid", "pink"), step-2)
+step-4 = overlay(rectangle(90, 60, "solid", "yellow"), step-3)
+step-5 = overlay(rectangle(80, 50, "solid", "crimson"), step-4)
+step-6 = overlay(rectangle(70, 40, "solid", "orange"), step-5) 
+step-7 = overlay(rectangle(60, 30, "solid", "lime"), step-6)
+step-8 = overlay-xy(rectangle(10, 30, "solid", "white"), -80, -35, step-7)
+step-9 = overlay-xy(rectangle(10, 30, "solid", "white"), -60, -35, step-8)
+step-10 = overlay-xy(rectangle(10, 30, "solid", "white"), -40, -35, step-9)
