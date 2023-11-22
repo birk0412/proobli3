@@ -1,0 +1,2 @@
+overlay-xy(rectangle(10, 30, "solid", "white"), -40, -35,overlay-xy(rectangle(10, 30, "solid", "white"), -60, -35,overlay-xy(rectangle(10, 30, "solid", "white"), -80, -35,overlay(rectangle(60, 30, "solid", "lime"),overlay(rectangle(70, 40, "solid", "orange"),overlay(rectangle(80, 50, "solid", "crimson"), overlay(rectangle(90, 60, "solid", "yellow"), overlay(rectangle(100, 70, "solid", "pink"), overlay(rectangle(110, 80, "solid", "purple"), overlay(rectangle(120, 90, "solid", "dark-blue"),rectangle(130, 100, "solid", "green")))))))))))
+
