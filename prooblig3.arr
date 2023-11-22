@@ -1,3 +1,5 @@
+bakgrunn = rectangle(130, 100, "solid", "green")
+
 step-1 = overlay(rectangle(120, 90, "solid", "dark-blue"), bakgrunn)
 step-2 = overlay(rectangle(110, 80, "solid", "purple"), step-1)
 step-3 = overlay(rectangle(100, 70, "solid", "pink"), step-2)
